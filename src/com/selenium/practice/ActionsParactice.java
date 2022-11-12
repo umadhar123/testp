@@ -43,6 +43,7 @@ public class ActionsParactice{
 		
 		actions.moveToElement(subMenu);
 		actions.click().build().perform();
+		driver.quit();
 
 	}
 
